@@ -1,0 +1,67 @@
+<head>
+    <link rel="stylesheet" href="mystyles.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="onl.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md  navbar-scroll shadow-0">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.html" class="nv">Home </a></li>
+                    <li><a href="About.html" class="nv">About Us </a></li>
+                    <li><a href="Contact.html" class="nv">Contact Us </a></li>
+                    <li><a href="RegistrationP.html" class="nv">Register </a></li>
+                    <li><a href="LoginP.html" class="nv">Sign in </a></li>
+                    </ul>
+            </div>
+            <nav class="l navbar fixed-top navbar-expand-md  navbar-scroll shadow-0">
+                <div class="container-fluid">
+                <a href="#">
+                    <img src="logo.png" alt="logo" width="150" height="80">
+                    <a href="donate.html" class="topnav">Donate</a> 
+                </a></div>
+            </nav>
+        </nav>
+    </header><br><br><br>
+  <div class="donation-container">
+              <div class="donation-box">
+                  <div class="title">Donation Information</div>
+
+                  <div class="fields">
+                      <input type="text" id="firstName" placeholder="First Name"> </input>
+                      <input type="text" id="lastName" placeholder="Last Name"> </input>
+                      <input type="text" id="email" placeholder="Email"> </input>
+                  </div>
+                  
+                  <div class="amount">
+                      <div class="button">$30</div>
+                      <div class="button">$50</div>
+                      <div class="button">$100</div>
+                      <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+                  </div>
+                  <br><br>
+                  <div class="switch">
+                      <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+                      <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+                      <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+                      <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+                      <span class="switch-selection"></span>
+                  </div>
+                  
+                  <div class="checkboxes">
+                      <input type="checkbox" id="receipt" />Email Me A Receipt<br>
+                      <input type="checkbox" id="anon"/>Give Anonymously<br>
+                      <input type="checkbox" id="list"/>Add Me To Email List
+                  </div>
+                  <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+              </div>
+          </div>
+          <footer class="f">
+            &copy; 2024 Audio and Video. All rights reserved.
+        </footer>
+  </body>

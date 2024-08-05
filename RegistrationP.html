@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body >
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md  navbar-scroll shadow-0">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.html" class="nv">Home </a></li>
+                    <li><a href="About.html" class="nv">About Us </a></li>
+                    <li><a href="Contact.html" class="nv">Contact Us </a></li>
+                    <li><a href="RegistrationP.html" class="nv">Register </a></li>
+                    <li><a href="LoginP.html" class="nv">Sign in </a></li>
+                    </ul>
+            </div>
+            <nav class="l navbar fixed-top navbar-expand-md  navbar-scroll shadow-0">
+                <div class="container-fluid">
+                <a href="#">
+                    <img src="logo.png" alt="logo" width="150" height="80">
+                    <a href="donate.html" class="topnav">Donate</a> 
+                </a></div>
+            </nav>
+        </nav>
+    </header>
+    <div class="st">
+        <h2>Registration Form</h2><br>
+        <div class="st1">
+    <form action="#" onsubmit="return validateForm()" name="myform">
+        <h4>Enter your details here.</h4>
+        <section><br>
+        Your Name: <input type="text" required name="uname" placeholder="username" autofocus><br><br>
+        Password : <input type="password" required name="pass" placeholder="password"><br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+        Enter Your Phone No:  <input type="tel" 
+        name="personal" required id="per1" pattern="[0-9]{10}" 
+        title="please enter ten digits of number only"><br><br>
+        Enter Your Email: <input type="email" name="office" id="myofficeid" placeholder="email" required><br><br>
+        Date of Birth: <input type="date" name="bname" required><br><br>
+        Select age:
+        <select name="age" id="Age" required>
+            <option value="">age</option>
+            <option value="year">0-8</option>
+            <option value="year">9-17</option>
+            <option value="year">18-33</option>
+            <option value="year">34-45</option>
+            <option value="year">46-60</option>
+            <option value="year">above 60</option>                                                 
+        </select>                                               
+        <br><br>Select Gender: <br>
+        <input type="radio" name="gender" id="male" value="male">Male
+        <input type="radio" name="gender" id="female" value="female">Female
+        <input type="radio" name="gender" id="others" value="others">Others<br><br>
+        Languages known: 
+        <select name="lang"  id="dropdownForm">
+        <option value="">select</option>
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Telugu">Telugu</option>
+        <option value="Tamil">Tamil</option>
+        <option value="Kanada">Kanada</option>
+        <option value="Malayalam">Malayalam</option>
+        <option value="Punjabi">Punjabi</option>
+        <option value="Marathi">Marathi</option>
+        <option value="Urdu">Urdu</option>
+        <option value="Arabic">Arabic</option></select><br><br>
+        About yourself <br>
+        <textarea name="userinfo" cols="45" rows="5">Tell something!!!</textarea><br><br><br>
+        <section>
+        <input type="submit"  value="submit" class="sub"><br><br>
+        </section>
+        <p>Already registered?<a href="LoginP.html" style="text-decoration: none;" class="hv">Login to your account</a></p>
+    </form></div><br>
+    Completing Your registration process...<br>Please wait...<br>
+        <progress value="300" max="500"></progress></div>
+    <script src="javascript.js"></script>
+    <footer class=" p f">
+        &copy; 2024 Audio and Video. All rights reserved.
+    </footer>
+</body>
+</html>

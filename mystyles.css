@@ -1,0 +1,103 @@
+nav{background-color: rgb(2, 76, 2);
+    overflow: hidden;}
+nav a{text-decoration: none;}
+nav a:hover{text-decoration:none;background-color: whitesmoke;}
+.nv{color: whitesmoke;}
+.nv:hover{color:rgb(2, 55, 2);}
+.hv{ color: blueviolet;}
+.hv:hover{
+    color: rgb(255, 162, 0);
+}
+.l{ background-color:whitesmoke;padding-left: 5%;}
+.l:hover{background-color: none;}
+.p{margin-top: 5%;}
+.f{
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(231, 229, 229);
+    background-color:rgb(34, 33, 33);
+    padding:31px;
+    position: re;
+}
+.rp{
+    margin-left: 30%;
+}
+.sub{
+    background-color:rgb(13, 162, 13);
+    color: white;
+    font-size: medium;
+    padding: 11px 31px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.sub:hover{
+    background-color:rgb(25, 109, 244);
+    color:whitesmoke;
+    border-radius:11px;
+}
+.topnav {padding: 11px 31px;font-size: medium;border:none;float:right;
+    border-radius: 11px;cursor: pointer;margin-top: 15px;margin-right: 11%;
+background-color: rgb(2, 55, 2);color: whitesmoke;}
+.topnav:hover{background-color:darkseagreen;color:rgb(2, 55, 2);border-radius: 11px;}
+.st{
+    display: flex;align-items: center;justify-content: center;
+        font-family: sans-serif;line-height: 1.5;min-height: 100vh;
+        background: #fff;flex-direction: column;
+}
+.st1{border-radius: 15px;box-shadow: 0 31px 31px rgba(0, 0, 0, 0.2),4px 11px 31px rgb(246, 177, 177) ;padding: 10px 20px;
+    transition: transform 0.2s;width: 500px;text-align: center;}
+.cont{
+    img{
+        margin:0 auto;
+        box-sizing: border-box;
+    }
+    /* smart phones(potrait nd landscape)------*/
+    @media screen and(min-width:150px)and (max-width: 320px){
+        img{
+                width: 150px;
+                height: 150px;
+        }
+    }
+    @media screen and (min-width: 321px)and (max-width:480px){
+        img{
+                width: 200px;
+                height: 200px;
+        }
+    }
+    /* tablets, ipads (potrait and landscape)----*/
+    @media screen and (min-width: 481px) and (max-width: 768px){
+        img{
+                width: 350px;
+                height: 350px;
+        }
+    }
+    /* low resolution Desktops and laptops....*/
+    @media screen and(min-width:769px)and (max-width: 1024px){
+        img{
+                width: 550px;
+                height: 550px;
+        }
+    }
+    /* high resolution Desktops and laptops....*/
+    @media screen and(min-width:1025px)and (max-width: 1200px){
+        img{
+                width: 700px;
+                height: 700px;
+        }
+    }
+    @media screen and(max-width:1201px){
+        img{
+                width: 800px;
+                height: 800px;
+        }
+    }
+}
+/*320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV*/

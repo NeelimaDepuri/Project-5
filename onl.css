@@ -1,0 +1,218 @@
+.donation-container {
+	height: 1000px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.donation-box {
+	width: 390px;
+	height: 386px;
+	background-color: #F5F5F5;
+	border-top-left-radius: 11px;
+	border-top-right-radius: 11px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 11px 11px yellowgreen;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.donation-box .title {
+	background-color: #5aa7f5;
+	width: 100%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	color:black;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 15px;
+	border-radius: 11px;
+}
+
+.donation-box .donate-button {
+	background-color: #479cf0;
+	width: 100%;
+	color:black;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 18px;
+	bottom: 0px;
+	position: absolute;
+	cursor: pointer;
+	font-weight: 800;
+	border-radius: 19px;
+}
+.donate-button:hover{
+	background-color: blue;
+	color: white;
+}
+.donation-box .fields {
+	width: 59%;
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 15px;
+	border: #0e0e0e;
+}
+
+.donation-box .fields input {
+	width: 90%;
+	font-size: 17px;
+	padding: 10px;
+	border-color: #5C5C5C;
+	border-radius: 4px;
+	border-width: 0px;
+	color: #5C5C5C;
+	font-weight: 500;
+	
+	-webkit-font-smoothing: antialiased;
+}
+
+.donation-box .amount {
+	width: 30%;
+	display: block;
+	position: absolute;
+	top: 60px;
+	right: 15px;
+	border-radius: 7px;
+}
+
+.donation-box .amount .button {
+	width: 100%;
+	background-color: rgb(158, 244, 38);
+	margin-bottom: 10px;
+	text-align: center;
+	color: black;
+	padding: 15px 0px 15px 0px;
+	border-radius: 4px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 11px;
+	
+	-webkit-transition: 400ms background-color;
+	-moz-transition: 800ms opacity, 800ms right;
+	-ms-transition: 800ms opacity, 800ms right;
+	-o-transition: 800ms opacity, 800ms right;
+	transition: 200ms background-color;
+}
+
+.donation-box .amount .button:hover {
+	background-color: #fbbdbd;
+}
+
+.donation-box .amount .button.selected {
+	background-color: #fabebe;
+}
+
+.donation-box .amount .button input {
+	min-width: 34px;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	border-bottom: 2px dashed white;
+	-webkit-font-smoothing: antialiased;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.set-amount {
+	max-width: 96px;
+}
+
+.switch {
+  position: absolute;
+  top: 190px;
+  left: 15px;
+  margin: 20px auto;
+  height: 26px;
+  width: 58.5%;
+  background: white;
+  border-radius: 3px;
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 49%;
+  line-height: 26px;
+  font-size: 11px;
+  color: #0e0e0e;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+.switch-input {
+  display: none;
+}
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 114px;
+}
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 2px;
+  width: 49%;
+  height: 22px;
+  background: #65bd63;
+  border-radius: 3px;
+  background-color: #66acf2;
+  
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+.checkboxes {
+	position: absolute;
+	top: 242px;
+	left: 13px;
+	font-size:15px;
+	font-weight: bold;
+}
+
+.checkboxes label {
+	position: relative;
+	top: -8px;
+	font-size: 13px;
+	color: rgb(18, 16, 16);
+}
